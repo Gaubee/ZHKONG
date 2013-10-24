@@ -1,0 +1,27 @@
+{
+  "name": "bootcss",
+  "version": "0.0.1",
+  "description": "中航掌控门户页面",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "*",
+    "connect-livereload": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-wrap":"*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "view"
+  ],
+  "author": "Gaubee",
+  "license": "MIT"
+}
