@@ -20,7 +20,7 @@ $(function init_nav(){
 		var height = nav_content_item._cache_height = nav_content_item.height();
 		var width = nav_content_item._cache_width = nav_content_item.width();
 		var offset = nav_content_item._cache_offset = nav_content_item.offset();
-		nav_content_item.css({height:0,minHeight:0,overflow:"hidden",display:"none"});
+		nav_content_item.css({height:0,minHeight:0,overflow:"hidden",display:"none",opacity:1});
 		nav_content_items._jq_cache[nav_content_item.data("nav-content")] = nav_content_item;
 	});
 	var start_line = nav.offset().left,
