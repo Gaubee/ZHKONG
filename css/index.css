@@ -56,6 +56,9 @@ body{
 	padding-left: 8px;
 	_overflow: hidden;
 }
+#nav a {
+	text-decoration: none;
+}
 #nav h2{
 	margin-top: 6px;
 	margin-bottom: 15px;
