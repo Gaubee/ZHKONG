@@ -108,7 +108,7 @@ body{
 	z-index: 1;
 }
 #main-head{
-	height: 65px;
+	height: 50px;
 	background-image: url("../img/produce-head-bg.png");
 	background-repeat: no-repeat;
 	text-align: right;
@@ -165,7 +165,7 @@ body{
 }
 .out-body-benner{
 	background-color: #E2E2E2;
-	margin-top: 12px;
+	/*margin-top: 12px;*/
 	margin-bottom: 12px;
 	border-width: 1px 0px 2px 0px;
 	border-color: #EEE;
