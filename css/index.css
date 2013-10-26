@@ -60,9 +60,11 @@ body{
 	text-decoration: none;
 }
 #nav h2{
-	margin-top: 6px;
-	margin-bottom: 15px;
-	_margin-bottom:7px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 6px;
+	padding-bottom: 15px;
+	_padding-bottom:7px;
 	color: #fff;
 	height: 19px;
 }
@@ -74,12 +76,19 @@ body{
 	z-index: 0;
 }
 .banner-item{
-	height: 359px;
-	/* position: absolute;
-	margin-top: 0px;
+	/*margin-top: 0px;
 	margin-left: 0px; */
-	width: 972px;
+
+	background-color: #38A3F5;
+	height: 364px;
+	position: absolute;
+	width: 100%;
+	/*width: 972px;*/
 }
+.banner-item .out{height:100%;width:100%;position:relative;overflow:hidden;}
+.banner-item .mid{position:absolute;left:50%;width:1000px;text-align:center;}
+.banner-item .in{position:relative;left:-95%;_left:-50%;}
+
 #banner-nav{
 	float: right;
 	list-style: none;
@@ -158,14 +167,9 @@ body{
 	background-color: #E2E2E2;
 	margin-top: 12px;
 	margin-bottom: 12px;
-}
-.banner-item{
-	background-color: #38A3F5;;
-	height: 364px;
-	position: absolute;
-	/* margin-top: 0px;
-	margin-left: 0px; */
-	width: 972px;
+	border-width: 1px 0px 2px 0px;
+	border-color: #EEE;
+	border-style: solid;
 }
 
 .product-item-center{
@@ -212,6 +216,7 @@ body{
 } */
 .out-body-main{
 	background-color: #F7F7F7;
+	border-top: 2px #eee solid;
 }
 .news-list{
 	list-style: none;
