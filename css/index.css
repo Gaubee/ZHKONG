@@ -16,7 +16,8 @@ body{
 
 #head {
 	padding-top: 61px;
-	background-image: url("../img/logo-word.png");
+	background-image: url("../img/logo.jpg");
+	/*background-image: url("../img/logo-word.png");*/
 	background-position-y: 50%;
 	background-repeat: no-repeat;
 }
@@ -165,11 +166,10 @@ body{
 }
 .out-body-benner{
 	background-color: #E2E2E2;
-	/*margin-top: 12px;*/
-	margin-bottom: 12px;
-	border-width: 1px 0px 2px 0px;
-	border-color: #EEE;
+	border-width: 0px 0px 2px 0px;
 	border-style: solid;
+	border-color: #AFAFAF;
+	/*margin-top: 12px;*/
 }
 
 .product-item-center{
@@ -216,7 +216,6 @@ body{
 } */
 .out-body-main{
 	background-color: #F7F7F7;
-	border-top: 2px #eee solid;
 }
 .news-list{
 	list-style: none;
@@ -277,7 +276,7 @@ body{
 .copyright h4{
 	color: #EEE;
 	font-size: 12px;
-	font-family: "宋体";
+	font-family: "微软雅黑","宋体";
 	margin-top: 4.5em;
 	font-weight: 200;
 }
