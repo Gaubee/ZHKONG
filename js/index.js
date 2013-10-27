@@ -1,14 +1,3 @@
-function getTriangle(){
-	var style = 'width: 0px;\
-        height: 0px;\
-        font-size: 0px;\
-        margin: 100px auto;\
-        border-top: #000 100px solid;\
-        border-right: red 100px solid;\
-        border-bottom:blue 100px solid;\
-        border-left:yellow 100px solid;'
-	var triangle = '<div></div>'
-}
 $(function init_nav(){
 	var nav = $("#nav");
 	var nav_items = $(".nav-item");
@@ -54,12 +43,14 @@ $(function init_nav(){
 				}
 			}
 			nav_item.on("mouseenter",function(){
+				nav_item.addClass("nav-item-hover");
 				nav_content_item.stop().css({
 					display:"block"
 				}).animate({
 					height:nav_content_item._cache_height
 				},130);
 			}).on("mouseleave",function(){
+				nav_item.removeClass("nav-item-hover");
 				nav_content_item.stop().css({
 					display:"none"
 				}).animate({
@@ -67,6 +58,11 @@ $(function init_nav(){
 				},130);
 			});
 		}
+	});
+
+	nav_items.last().css({
+		paddingRight:"20px",
+		marginRight:"-20px"
 	})
 });
 

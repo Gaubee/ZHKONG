@@ -166,7 +166,7 @@ body{
 }
 .out-body-benner{
 	background-color: #E2E2E2;
-	border-width: 0px 0px 2px 0px;
+	border-width: 0px 0px 1px 0px;
 	border-style: solid;
 	border-color: #AFAFAF;
 	/*margin-top: 12px;*/
@@ -237,6 +237,7 @@ body{
 }
 #nav{
 	border-right: 1px solid #FFF;
+	overflow: hidden;
 }
 .news-title a{
 	font-size: 1.2em;
@@ -296,5 +297,13 @@ body{
 	box-shadow: 0px 1px 2px #55A7F3;
 	border: 1px solid #55A7F3;
 	border-radius: 0px 0px 6px 6px;
+	border-top: 0px;
 	/* height: 1400px; */
 }
+.nav-item-hover{
+	background-color: #0b65bb;
+	background-image: url("../img/triangle.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 32px;
+	_background-position:61px 32px;
+} 
