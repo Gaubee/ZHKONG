@@ -1,7 +1,6 @@
 body{
 	/* background-image: url("../img/中航掌控.home.jpg"); */
 	background-position-x: 50%;
-	/* height: 1400px; */
 }
 .body{
 	max-width: 972px;
@@ -16,7 +15,7 @@ body{
 
 #head {
 	padding-top: 61px;
-	background-image: url("../img/logo.jpg");
+	background-image: url("../img/logo.png");
 	/*background-image: url("../img/logo-word.png");*/
 	background-position-y: 50%;
 	background-repeat: no-repeat;
@@ -48,6 +47,10 @@ body{
 }
 #search_text input{
 	width: 111px;
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	border: 1px #9a9a9a solid;
 }
 .nav-item{
 	text-align: center;
@@ -151,7 +154,7 @@ body{
 	text-align: center;
 }
 .out-body-footer{
-	background-color: rgba(58, 156, 247, 1);
+	background-color: #3A9CF7;
 	height: 405px;
 	background-image: url("../img/footer-bg.png");
 }
@@ -298,7 +301,6 @@ body{
 	border: 1px solid #55A7F3;
 	border-radius: 0px 0px 6px 6px;
 	border-top: 0px;
-	/* height: 1400px; */
 }
 .nav-item-hover{
 	background-color: #0b65bb;
@@ -307,3 +309,143 @@ body{
 	background-position: 50% 32px;
 	_background-position:61px 32px;
 } 
+/*
+ *essay.html
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.clearfix:after {
+  clear: both;
+}
+.essay-list{
+	float: left;
+	width: 25%;
+}
+#essay{
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.essay-content{
+	float: left;
+	width: 75%;
+}
+.essay-nav{
+	/*-webkit-transform: scale(0.9);*/
+	text-align: right;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+.essay-nav .next{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.essay-nav .focus{
+	color: #4fabff;
+}
+.essay-nav a{
+	font-size: 1em;
+	color: #9a9a9a;
+	text-decoration: none;
+}
+.essay-nav a:hover{
+	text-decoration: underline;
+}
+.essay-list h2{
+	font-size: 2em;
+	margin: 0px;
+	padding-top: 13px;
+	color: #01284f;
+}
+.essay-list ul{
+	margin-top: 34px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.essay-list-item{
+	font-size: 1.3em;
+	padding-top: 2px;
+	padding-bottom: 9px;
+	padding-left: 20px;
+}
+#essay_title{
+	font-size: 2.1em;
+	margin: 0.5em 0;
+	color: #01284F;
+}
+.essay-list-item a{
+	color: #4a4a4a;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.essay-list-item a:hover{
+	color:#3A9CF7;
+}
+.essay-list .hover a:hover{
+	color:#FFF;
+}
+.essay-list .hover{
+	background-image: url("../img/essay-list-item-hover-bg.png");
+	background-repeat: no-repeat;
+}
+.essay-list .hover a{
+	color:#FFF;
+}
+.essay-content hr{
+	margin-top: 2.6em;
+	width: 100%;
+	height: 3px;
+	background-color: #a0a0a0;
+	border: 0px;
+}
+.essay-banner{
+	float: left;
+	padding-top: 18px;
+	+padding-top: 63px;//////IE7-
+}
+.essay-banner-item{
+	background-color: #f4f4f4;
+	color: #858585;
+	padding: 72px 8px 30px 8px;
+	margin-top: 45px;
+	/*_margin-bottom: 30px;*/
+	width: 158px;
+	box-shadow: 2px 2px 10px #868686;
+	position: relative;
+	z-index: 10;
+	behavior: url(PIE.htc);
+}
+.essay-banner .info{
+	background-image: url("../img/essay-banner-info.png");
+	background-repeat: no-repeat;
+	+margin-bottom: 45px;
+}
+.essay-banner .contact{
+	background-image: url("../img/essay-banner-contact.png");
+	background-repeat: no-repeat;
+}
+.essay-banner-item p{
+	/* -webkit-transform : scale(0.8); 
+	-o-transform : scale(1);
+	font-size: 9px; */
+	font-family: "宋体";
+	margin: 0.1em 0em;
+}
+.essay-banner-item a{
+	color: #4fabff;
+	font-family: "Tahoma","Verdana","Arial","sans-serif";
+	text-decoration: none;
+}
+.essay-banner-item a:hover{
+	text-decoration: underline;
+}
