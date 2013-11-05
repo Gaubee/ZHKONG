@@ -435,24 +435,28 @@ body{
 .essay-banner-item{
 	background-color: #f4f4f4;
 	color: #858585;
-	padding: 68px 8px 30px 8px;
-	margin-top: 20px;
+	padding: 0px 0px 30px 0px;
+	margin-top: 10px;
 	/*_margin-bottom: 30px;*/
-	width: 158px;
-	box-shadow: 2px 2px 10px #868686;
 	position: absolute;
 	z-index: 10;
 	behavior: url(PIE.htc);
+	border: 1px #DBDBDB solid;
 }
 .essay-banner .info{
-	background-image: url("../img/essay-banner-info.png");
-	background-repeat: no-repeat;
 	+margin-bottom: 45px;
 }
 .essay-banner .contact{
-	background-image: url("../img/essay-banner-contact.png");
-	background-repeat: no-repeat;
 	margin-top: 200px;
+}
+.essay-banner-item .essay-list-head{
+	border: 0px;
+}
+.essay-banner-item .detail{
+	border-top: 1px #DBDBDB solid;
+	padding-top: 10px;
+	padding-left:5px;
+	width: 165px;
 }
 .essay-banner-item p{
 	/* -webkit-transform : scale(0.8); 
@@ -481,8 +485,8 @@ body{
 .essay-list h3{
 	font-size: 0.8em;
 	font-weight: 100;
-	color: #FEA000;
 	margin: 0;
+	color: #FEA000;
 }
 .essay-list-head{
 	text-align: center;

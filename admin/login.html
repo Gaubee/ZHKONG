@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FUCK 360  -->
+        <meta name="renderer" content="webkit|ie-comp|ie-stand">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="../css/pure.min.css">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+
+        <div class="out-body-login">
+            <div id="login" class="body">
+                <form id="login_form" action="/" method="POST">
+                    
+                    <div class="title">
+                        <h2>后台管理</h2>
+                    </div>
+                    
+                    <div class="login_form">
+                        <div class="label"><span><input type="text" class="username input-text" name="username"></span></div>
+                        <div class="label"><span><input type="text" class="password input-text" name="password"></span></div>
+                        <div class="label"><span class="vcode-mask"><input type="text" class="vcode input-text" name="vcode"></span>
+                            <img src="" alt="" id="vcode_img">
+                            <!-- width:110px;
+                            height:35px; -->
+                        </div>
+                        
+                        <div class="label-button">
+                            <input type="submit" class="input-button" value="登陆">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="out-body-footer">
+            <div class="body">
+                <span>专业为您打造机房动力及环境监控</span>
+            </div>
+            <div class="mask">
+            </div>
+        </div>
+        <script src=".//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script src="js/login.js"></script>
+    </body>
+</html>

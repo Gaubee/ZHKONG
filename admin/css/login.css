@@ -1,0 +1,217 @@
+html,body{
+	/* background-image: url("../img/中航掌控.home.jpg"); */
+	background-position-x: 50%;
+	height: 100%;
+	background-color: #2A92C5;
+}
+.body{
+	max-width: 972px;
+	*width: 972px;
+	margin: 0px auto;
+	font-size: 12px;
+	font-family: "Microsoft yahei","微软雅黑","Tahoma","Verdana","Arial","sans-serif";
+}
+.body a{
+	color: #0C7FEA;
+}
+.out-body-login{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/login-bg.png");
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+}
+.out-body-footer{
+	/*background-color: #3A9CF7;*/
+	height: 139px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-image: url("../img/login_footer_bg.png");
+	text-align: right;
+}
+.out-body-footer .body{
+	height: 100%;
+}
+.out-body-footer span{
+	color:white;
+	font-size:27px;
+	font-weight:bold;
+	display:block;
+	float:right;
+	padding-right: 3.8em;
+	padding-top: 2em;
+	font-family: "宋体";
+	position: relative;
+	z-index: 4;
+}
+.out-body-footer .mask{
+	position:fixed; 
+	bottom:0px; 
+	width:100%; 
+	height: 139px;
+	background:#3A9CF7; 
+	opacity:0.2; 
+	filter:alpha(opacity=20); 
+}
+
+#login{
+	height: 100%;
+	background-image:url("../img/loginbg.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	font-style: "宋体";
+	margin-top: -15px;
+}
+#login_form{
+	width: 200px;
+	margin: 0 auto ;
+	position: relative;
+	top:269px;
+	padding: 0px;
+	margin-top: 0px;
+	left: 234px;
+}
+#login_form .login_form{
+	position: relative;
+	top:-12px;
+}
+#login_form .title{
+	height: 3px;
+}
+#login_form .title h2{
+	position:  relative;
+	top:  -3em;
+	width:  100%;
+	margin-left:  -1em;
+	background-color:  #FFF;
+	text-align:  center;
+	color:  #635548;
+}
+#login_form .label{
+	padding: 25px 0;
+}
+#login_form .label span{
+}
+#login_form .input-text{
+	background-color: transparent;
+	border: 0px #F31212 solid;
+	padding: 3px 0;
+	height: 20px;
+	position:relative;
+	top:2px\9;
+	font-size: 1.2em;
+}
+ #login_form .input-text-withtext{
+	background-color:#FFF;
+} 
+#login_form .username{
+	width: 100%;
+}
+#login_form .password{
+	width: 100%;
+}
+#login_form .vcode-mask{
+	margin-left: -25px;
+}
+#login_form .vcode{
+	width: 60%;
+	margin-top: 2px;
+}
+#login_form .remenber{
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+#login_form .label-checkbox{
+	padding: 20px  0px 0px 9px;
+	+padding-top:17px;
+	_padding-left:5px;
+	_padding-top:14px;
+}
+
+#login_form .register{
+	padding-left: 32px;
+}
+#login_form span{
+	color: #8b8b8b;
+}
+#login_form a{
+	color: #8b8b8b;
+	text-decoration: none;
+}
+#login_form a:hover{
+	text-decoration: underline;
+}
+a.forget-password{
+	float: right;
+	padding-right: 40px;
+	+position:relative;
+	top:-1.3em;
+}
+#login_form .label-button{
+	padding-top: 18px;
+	margin-left: -34px;
+}
+#login_form .input-button{
+	width: 102%;
+	height:50px;
+	font-size:22px;
+	font-family: "Microsoft yahei","微软雅黑","Tahoma","Verdana","Arial","sans-serif";
+	background-color: #2890ef;
+	border: 0;
+	color: #FFF;
+	border-radius: 4px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+
+
+
+.inc-logo{
+	height: 100%;
+	background-image: url("../img/footer-login-logo.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.inc-phone{
+	height: 80px;
+	background-image: url("../img/inc-login-phone.png");
+	background-position: 0% 80%;
+	background-repeat: no-repeat;
+}
+.inc-email{
+	text-align: left;
+}
+
+ 
+/*
+ *essay.html
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+#login_form div{
+	margin-top: -3px;
+}
+#vcode_img{
+	 width:94px;
+	 height:50px;
+	 float: right;
+	 margin-right: -4px;
+	 margin-top: -10px;
+	 margin-bottom: -40px;
+}

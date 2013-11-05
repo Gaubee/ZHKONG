@@ -13,7 +13,7 @@ $(function init_nav(){
 		nav_content_items._jq_cache[nav_content_item.data("nav-content")] = nav_content_item;
 	});
 	var start_line = nav.offset().left,
-		end_line = start_line+nav.width();
+		end_line = start_line+nav.width()-2;
 	nav_items.each(function(i,nav_item){
 		nav_item = $(nav_item);
 		i = nav_item.data("nav-index");
